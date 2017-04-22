@@ -6,6 +6,12 @@ names = ['Sex','Length','Diameter','Height','Whole weight','Shucked weight','Vis
 df = pd.read_csv(filename, names=names) #, index_col=['Sex'])
 df.columns.name = 'Id'
 
+sex_counts = df.groupby('Sex').size()
+print(sex_counts)
+
+print(df[df.Sex == "A"])
+
+
 w_counts = df.groupby('Whole weight').size()
 #print(w_counts)
 #print(df[pd.isnull(df).any(axis=1)])

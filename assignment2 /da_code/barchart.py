@@ -7,7 +7,7 @@ names = ["Sex","Length","Diameter","Height","Whole weight","Shucked weight","Vis
 df = read_csv(filename, names=names)
 
 print(df.columns)
-df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,1417,2051,335]])
+df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,1417,2051,335,112]])
 #df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,1417,2051,335]])
 
 #for label in "MFI":
@@ -82,7 +82,7 @@ g.fig.get_children()[-1].set_bbox_to_anchor((1.1, 0.5, 0, 0))
 
 #df = sns.load_dataset('iris')
 #sns_plot = sns.pairplot(df, hue='species', size=2.5)
-g.savefig("output.png")
+g.savefig("output2.png")
 
 #sns.pairplot(df,hue='Sex')
 
