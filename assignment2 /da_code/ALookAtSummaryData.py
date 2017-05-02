@@ -3,7 +3,7 @@ from pandas import read_csv
 from pandas import set_option
 filename = "abalone.csv"
 names = ['Sex','Length','Diameter','Height','Whole weight','Shucked weight','Viscera weight','Shell weight','Rings']
-df = read_csv(filename, names=names)
+df = read_csv(filename,skiprows=1, names=names)
 
 #print(df.describe())
 

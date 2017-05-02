@@ -7,8 +7,7 @@ names = ["Sex","Length","Diameter","Height","Whole weight","Shucked weight","Vis
 df = read_csv(filename, names=names)
 
 print(df.columns)
-df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,1417,2051,335,112]])
-#df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,1417,2051,335]])
+df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,2051,335,112]])
 
 #for label in "MFI":
 #    df[label] = df["Sex"] == label
@@ -93,7 +92,7 @@ g.savefig("output2.png")
 #pyplot.subplots_adjust(bottom=0.8)
 
 # Set the Title of the graph from here
-#g.fig.suptitle('Total Bill vs. Tip', fontsize=34,color="r",alpha=0.5)
+g.fig.suptitle('Total Bill vs. Tip', fontsize=34,color="r",alpha=0.5)
 
 #g.map_diag(sns.kdeplot)
 #g.map_offdiag(sns.kdeplot, cmap="Blues_d", n_levels=6);
