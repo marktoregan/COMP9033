@@ -20,7 +20,6 @@ df = df.sample(frac=1).reset_index(drop=True)
 
 mapping = dict(zip(["I", "F", "M"], [-1, 0, 1]))
 df.replace({"Sex": mapping}, inplace=True)
-#double check there is no NA data and drop if exists
 df = df.dropna()
 
 
@@ -38,7 +37,6 @@ print(Y)
 num_folds = 10
 
 kfold = KFold(n_splits=10, random_state=7)
-#KFold(n_splits=n)
 model = Ridge(alpha=0.3,fit_intercept=False)
 
 model.fit(df[x_axis],df[y_axis])
@@ -55,23 +53,3 @@ sns.distplot(model.coef_, label='Ridge Model')
 pyplot.title('Residual Distribution Plot')
 pyplot.legend()
 pyplot.show()
-
-#rreg = linear_model.Ridge( alpha=0.1, fit_intercept=False )
-
-
-
-
-
-
-# Plot regressors
-#r = RidgeRegressor()
-#r.fit(X, Y)
-#pyplot.plot(X, r.predict(X), 'b', label=u' (alpha=0.0)')
-#alpha = 3.0
-#r.fit(X, Y, alpha)
-#pyplot.plot(X, r.predict(X), 'y', label=u' (alpha=%.1f)' % alpha)
-
-#pyplot.legend()
-#pyplot.show()
-
-
