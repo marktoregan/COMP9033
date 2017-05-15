@@ -119,6 +119,7 @@ predicted = pd.DataFrame({'predicted': y_pred}, index=X_test.index)
 predicted.plot(ax=ax, marker='o', linewidth=0);
 
 
+
 # This fit isn't good at all! This is because the relationship between server load and time is *non-linear*, and linear regression can only model *linear* relationships. However, we can compensate for this by including *polynomial features* in our model. These are transformations of the input features, like $x, x^2, x^3$. In `scikit-learn`, we can generate these automatically using the [`PolynomialFeatures`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html) class.
 #
 # Before generating polynomial features, we should first make sure that our features are *centered*, i.e. that they have zero mean. This is a requirement when using polynomial features with linear regression algorithms. In `scikit-learn`, we can do this using the [`StandardScaler`](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) class.
