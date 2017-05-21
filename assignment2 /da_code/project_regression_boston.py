@@ -147,13 +147,16 @@ pyplot.show()
 
 
 # KNN Algorithm tuning
-scaler = StandardScaler().fit(X_train)
-rescaledX = scaler.transform(X_train)
+
+
 k_values = numpy.array([1,3,5,7,9,11,13,15,17,19,21])
 param_grid = dict(n_neighbors=k_values)
 model = KNeighborsRegressor()
 kfold = KFold(n_splits=num_folds, random_state=seed)
 grid = GridSearchCV(estimator=model, param_grid=param_grid, scoring=scoring, cv=kfold)
+
+scaler = StandardScaler().fit(X_train)
+rescaledX = scaler.transform(X_train)
 grid_result = grid.fit(rescaledX, Y_train)
 
 print("Best: %f using %s" % (grid_result.best_score_, grid_result.best_params_))
