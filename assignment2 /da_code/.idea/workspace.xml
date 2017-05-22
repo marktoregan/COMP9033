@@ -18,14 +18,14 @@
     <SUITE FILE_PATH="coverage/da_code$box.coverage" NAME="box Coverage Results" MODIFIED="1492866306396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$DensityPlot.coverage" NAME="DensityPlot Coverage Results" MODIFIED="1492866329684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$githubexample.coverage" NAME="githubexample Coverage Results" MODIFIED="1492954307250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/da_code$ridge_regression_mfi.coverage" NAME="ridge_regression_mfi Coverage Results" MODIFIED="1495457781505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/da_code$ridge_regression_mfi.coverage" NAME="ridge_regression_mfi Coverage Results" MODIFIED="1495465122199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$yu.coverage" NAME="yu Coverage Results" MODIFIED="1493903016376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$ALookAtSummaryData.coverage" NAME="ALookAtSummaryData Coverage Results" MODIFIED="1495455626733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$runwithout_mods.coverage" NAME="runwithout_mods Coverage Results" MODIFIED="1495385891933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$project_regression_abalone.coverage" NAME="project_regression_abalone Coverage Results" MODIFIED="1495456099404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$correlation_matrix.coverage" NAME="correlation_matrix Coverage Results" MODIFIED="1495455446036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/da_code$project_regression_boston.coverage" NAME="project_regression_boston Coverage Results" MODIFIED="1495114774595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$barchart.coverage" NAME="barchart Coverage Results" MODIFIED="1495455989521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/da_code$project_regression_boston.coverage" NAME="project_regression_boston Coverage Results" MODIFIED="1495484065786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$ridge_regression.coverage" NAME="ridge_regression Coverage Results" MODIFIED="1495102813671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$cross.coverage" NAME="cross Coverage Results" MODIFIED="1495455455274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/da_code$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1495456025104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -42,21 +42,45 @@
       <file leaf-file-name="project_regression_boston.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_regression_boston.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ridge_regression_mfi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ridge_regression_mfi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ridge_regression_mfi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+            <state relative-caret-position="-480">
+              <caret line="55" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="barchart.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/barchart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ALookAtSummaryData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ALookAtSummaryData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,12 +99,12 @@
         <option value="$PROJECT_DIR$/yu.py" />
         <option value="$PROJECT_DIR$/ridge_regression.py" />
         <option value="$PROJECT_DIR$/cross.py" />
-        <option value="$PROJECT_DIR$/project_regression_boston.py" />
         <option value="$PROJECT_DIR$/rr.py" />
         <option value="$PROJECT_DIR$/runwithout_mods.py" />
         <option value="$PROJECT_DIR$/barchart.py" />
         <option value="$PROJECT_DIR$/scatter.py" />
         <option value="$PROJECT_DIR$/project_regression_abalone.py" />
+        <option value="$PROJECT_DIR$/project_regression_boston.py" />
         <option value="$PROJECT_DIR$/ridge_regression_mfi.py" />
       </list>
     </option>
@@ -155,7 +179,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ridge_regression_mfi">
+  <component name="RunManager" selected="Python.project_regression_boston">
     <configuration default="false" name="barchart" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,24 +194,6 @@
       <module name="da_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/barchart.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ALookAtSummaryData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="da_code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ALookAtSummaryData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -242,6 +248,24 @@
       <module name="da_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ridge_regression_mfi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="project_regression_boston" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="da_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_regression_boston.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -456,18 +480,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.barchart" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ALookAtSummaryData" />
-      <item index="2" class="java.lang.String" itemvalue="Python.scatter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.project_regression_abalone" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ridge_regression_mfi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.scatter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.project_regression_abalone" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ridge_regression_mfi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.project_regression_boston" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ridge_regression_mfi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.project_regression_abalone" />
-        <item index="2" class="java.lang.String" itemvalue="Python.scatter" />
-        <item index="3" class="java.lang.String" itemvalue="Python.barchart" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ALookAtSummaryData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.project_regression_boston" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ridge_regression_mfi" />
+        <item index="2" class="java.lang.String" itemvalue="Python.project_regression_abalone" />
+        <item index="3" class="java.lang.String" itemvalue="Python.scatter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.barchart" />
       </list>
     </recent_temporary>
   </component>
@@ -833,16 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barchart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runwithout_mods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -869,14 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ALookAtSummaryData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/remove_bad_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -887,18 +893,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project_regression_boston.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALookAtSummaryData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ridge_regression_mfi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+        <state relative-caret-position="-480">
+          <caret line="55" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barchart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

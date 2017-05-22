@@ -48,9 +48,7 @@ dataset = dataset.sample(frac=1).reset_index(drop=True)
 dataset.hist()
 pyplot.show()
 #
-## density
-dataset.plot(kind='density', subplots=True, layout=(4,4), sharex=False)
-pyplot.show()
+
 
 ## box and whisker plots
 dataset.plot(kind='box', subplots=True, layout=(4,4), sharex=False, sharey=False)
