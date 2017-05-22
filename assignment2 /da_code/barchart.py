@@ -9,9 +9,9 @@ df = read_csv(filename, names=names)
 print(df.columns)
 df = df.drop(df.index[[1257,3996,3291,1858,3505,3800,2051,335,112]])
 
-#for label in "MFI":
-#    df[label] = df["Sex"] == label
-#del df["Sex"]
+for label in "MFI":
+    df[label] = df["Sex"] == label
+del df["Sex"]
 
 df = df.dropna()
 
@@ -107,4 +107,3 @@ g.fig.suptitle('Total Bill vs. Tip', fontsize=34,color="r",alpha=0.5)
 
 
 pyplot.show()
-
