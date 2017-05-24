@@ -89,7 +89,7 @@ dataset = dataset[names]
 array = dataset.values
 X = array[:,0:9]
 Y = array[:,9]
-validation_size = 0.20
+validation_size = 0.30
 seed = 7
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=validation_size, random_state=seed)
 
@@ -233,6 +233,8 @@ model.fit(rescaledX, Y_train)
 rescaledValidationX = scaler.transform(X_validation)
 predictions = model.predict(rescaledValidationX)
 print(mean_squared_error(Y_validation, predictions))
+
+print(predictions.score)
 
 
 

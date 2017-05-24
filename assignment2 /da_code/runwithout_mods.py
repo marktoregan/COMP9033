@@ -45,7 +45,7 @@ X = array[:,0:9]
 Y = array[:,9]
 
 # Split-out validation dataset
-validation_size = 0.20
+validation_size = 0.30
 seed = 7
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=validation_size, random_state=seed)
 
@@ -95,8 +95,8 @@ print("Rfe Num Features: %d") % fit.n_features_
 print("Rfe Selected Features: %s") % fit.support_
 print("Rfe Feature Ranking: %s") % fit.ranking_
 print("")
-print('MAE: %.2f Gb/s' % mean_absolute_error(Y_validation, y_pred))
-print('RMSE: %.2f Gb/s' % sqrt(mean_squared_error(Y_validation, y_pred)))
+print('MAE: %.2f ' % mean_absolute_error(Y_validation, y_pred))
+print('RMSE: %.2f ' % sqrt(mean_squared_error(Y_validation, y_pred)))
 print("")
 print("Cross Validation Accuracy: %.3f%% (%.3f%%)") % (results.mean()*100.0, results.std()*100.0)
 print("Model Accuracy: %.3f%%") % (result_validation*100.0)

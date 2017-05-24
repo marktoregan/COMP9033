@@ -37,7 +37,7 @@ dataset = dataset[names]
 array = dataset.values
 X = array[:,0:9]
 Y = array[:,9]
-validation_size = 0.20
+validation_size = 0.30
 seed = 7
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=validation_size, random_state=seed)
 
@@ -77,19 +77,17 @@ grid_result = grid.fit(rescaledX, Y_train)
 
 print("Best: %f using %s" % (grid_result.best_score_, grid_result.best_params_))
 
-print(grid_result.best_params_)
-n_estimators = grid_result.best_params_['n_estimators']
-
 # Make predictions on validation dataset
 
 # prepare the model
 scaler = StandardScaler().fit(X_train)
 rescaledX = scaler.transform(X_train)
 
-model = GradientBoostingRegressor(random_state=seed, n_estimators=n_estimators)
+model = GradientBoostingRegressor(random_state=seed, n_estimators=400)
 model.fit(rescaledX, Y_train)
 # transform the validation dataset
 rescaledValidationX = scaler.transform(X_validation)
 predictions = model.predict(rescaledValidationX)
+
 
 print(mean_squared_error(Y_validation, predictions))
